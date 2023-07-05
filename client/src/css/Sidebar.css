@@ -1,0 +1,20 @@
+.ryt {
+    width: 1;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.xyz {
+    background-color: teal;
+}
+
+.sidebar2 {
+    background-color: #EDEADE;
+    grid-column: span 3;
+    display: none;
+}
+
+.sidebar2.open {
+    display: block;
+}
